@@ -15,10 +15,7 @@
 #import "KxMovieDecoder.h"
 #import "KxAudioManager.h"
 #import "KxMovieGLView.h"
-
-NSString * const KxMovieParameterMinBufferedDuration = @"KxMovieParameterMinBufferedDuration";
-NSString * const KxMovieParameterMaxBufferedDuration = @"KxMovieParameterMaxBufferedDuration";
-NSString * const KxMovieParameterDisableDeinterlacing = @"KxMovieParameterDisableDeinterlacing";
+#import "KxConstants.h"
 
 ////////////////////////////////////////////////////////////////////////////////
 
