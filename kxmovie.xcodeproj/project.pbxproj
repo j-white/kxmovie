@@ -47,6 +47,7 @@
 		87FD6191163A75DC0090956E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E79437163910D0000A0848 /* QuartzCore.framework */; };
 		87FD6192163A75DF0090956E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E79439163910EA000A0848 /* Accelerate.framework */; };
 		87FD6193163A75E10090956E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E79435163910CA000A0848 /* OpenGLES.framework */; };
+		EAD16C181780E35C00AFC81E /* KxConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD16C171780E35C00AFC81E /* KxConstants.m */; };
 		EAF9C4D2177FCF3C00AD8CC1 /* KxMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF9C4D1177FCF3C00AD8CC1 /* KxMovieController.m */; };
 /* End PBXBuildFile section */
 
@@ -102,6 +103,8 @@
 		87E7946116394577000A0848 /* KxAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxAudioManager.h; sourceTree = "<group>"; };
 		87FD6175163A75440090956E /* libkxmovie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libkxmovie.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		87FD6179163A75440090956E /* kxmovie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kxmovie-Prefix.pch"; sourceTree = "<group>"; };
+		EAD16C161780E35600AFC81E /* KxConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxConstants.h; sourceTree = "<group>"; };
+		EAD16C171780E35C00AFC81E /* KxConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxConstants.m; sourceTree = "<group>"; };
 		EAF9C4D0177FCF3C00AD8CC1 /* KxMovieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMovieController.h; sourceTree = "<group>"; };
 		EAF9C4D1177FCF3C00AD8CC1 /* KxMovieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMovieController.m; sourceTree = "<group>"; };
 		EAF9C4D3177FD25800AD8CC1 /* KxMovieRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMovieRenderer.h; sourceTree = "<group>"; };
@@ -220,6 +223,8 @@
 		87FD6177163A75440090956E /* kxmovie */ = {
 			isa = PBXGroup;
 			children = (
+				EAD16C171780E35C00AFC81E /* KxConstants.m */,
+				EAD16C161780E35600AFC81E /* KxConstants.h */,
 				EAF9C4D3177FD25800AD8CC1 /* KxMovieRenderer.h */,
 				EAF9C4D0177FCF3C00AD8CC1 /* KxMovieController.h */,
 				EAF9C4D1177FCF3C00AD8CC1 /* KxMovieController.m */,
@@ -347,6 +352,7 @@
 				87FD6184163A75B50090956E /* KxMovieGLView.m in Sources */,
 				87FD6185163A75B70090956E /* KxMovieViewController.m in Sources */,
 				EAF9C4D2177FCF3C00AD8CC1 /* KxMovieController.m in Sources */,
+				EAD16C181780E35C00AFC81E /* KxConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
