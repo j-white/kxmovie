@@ -251,6 +251,8 @@ task :copy_movie do
 	FileUtils.copy Pathname.new('libs/libavutil.a'), dest
 	FileUtils.copy Pathname.new('libs/libswscale.a'), dest
 	FileUtils.copy Pathname.new('libs/libswresample.a'), dest
+	FileUtils.copy Pathname.new('kxmovie/KxConstants.h'), dest	
+	FileUtils.copy Pathname.new('kxmovie/KxMovieRenderer.h'), dest	
 	FileUtils.copy Pathname.new('kxmovie/KxMovieController.h'), dest	
 	FileUtils.copy Pathname.new('kxmovie/KxMovieViewController.h'), dest	
 	FileUtils.copy Pathname.new('kxmovie/KxAudioManager.h'), dest	
